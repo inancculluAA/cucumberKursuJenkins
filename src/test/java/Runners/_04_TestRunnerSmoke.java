@@ -9,8 +9,8 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@SmokeTest", // hangi senaryolarda bu etiket varsa onlar çalıştırılacak
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"},
-//        plugin = {"pretty","json:target/cucumber.json"}
-        plugin = {"html:target//cucumber-reports.html"}
+        plugin = {"pretty","json:target/cucumber.json"}
+        //plugin = {"html:target//cucumber-reports.html"}
 
 )
 
